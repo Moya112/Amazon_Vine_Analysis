@@ -18,7 +18,7 @@ CREATE TABLE customers_table (
 -- vine table
 CREATE TABLE vine_table (
   review_id TEXT PRIMARY KEY,
-  star_rating INTEGER,
+  star_rating TEXT,
   helpful_votes INTEGER,
   total_votes INTEGER,
   vine TEXT,
